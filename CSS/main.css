@@ -40,3 +40,18 @@ input[type="radio"] {
     margin: 2% 10%;
     border-radius: 15px;
 }
+
+#top img {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.word {
+    font-weight: bold;
+    text-decoration: underline;
+}
