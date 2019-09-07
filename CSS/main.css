@@ -10,3 +10,14 @@ form {
 h2 {
     font-size: 20px;
 }
+
+input[type="text"],
+input[type="number"] {
+    min-height: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+input[type="radio"] {
+    margin-left: 12px;
+}
