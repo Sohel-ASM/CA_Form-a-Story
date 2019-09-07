@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 199, 64);
+    font-family: "Open Sans", Arial;
+}
+
+form {
+    line-height: 27px;
+}
+
+h2 {
+    font-size: 20px;
+}
