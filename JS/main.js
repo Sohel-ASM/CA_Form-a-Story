@@ -49,3 +49,8 @@ title.innerHTML = `The <span class="word" title="id: animal-1">${firstAnimal}</s
 const storyEl = document.getElementById('story');
 // Populating the story element with the value of the story variable
 storyEl.innerHTML = story;
+
+// Grabbing the moral-message element
+const moralMessage = document.getElementById('moral-message');
+// Populating the moral-message element with text
+moralMessage.innerHTML = `<span class="italics" title="id: message">"${message}"</span>`;
