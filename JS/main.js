@@ -39,3 +39,8 @@ const story = `<p>A <span class="word" title="id: animal-1">${firstAnimal}</span
 <p>The <span class="word" title="id: animal-1">${firstAnimal}</span> was soon far out of sight, and to make the <span class="word" title="id: animal-2">${secondAnimal}</span> feel very deeply how ridiculous it was for him to try a race with a <span class="word" title="id: animal-1">${firstAnimal}</span>, he went off the course to practice <span class="word" title="id: verb-1">${verb1}</span> for <span class="word" title="id: num-1">${num1}</span> hours until the <span class="word" title="id: animal-2">${secondAnimal}</span> should catch up.</p>
 
 <p>The <span class="word" title="id: animal-2">${secondAnimal}</span> meanwhile kept going slowly but steadily, and, after a time, passed the place where the <span class="word" title="animal-1">${firstAnimal}</span> was <span class="word" title="id: verb-1">${verb1}</span>. The <span class="word" title="id: animal-1">${firstAnimal}</span> was so caught up in <span class="word" title="id: verb-1">${verb1}</span>; and when at last he did stop, the <span class="word" title="id: animal-2">${secondAnimal}</span> was near the goal. The <span class="word" title="id: animal-1">${firstAnimal}</span> now ran his swiftest, but he could not overtake the <span class="word" title="id: animal-2">${secondAnimal}</span> in time.</p>`;
+
+// Grabbing the title element
+const storyEl = document.getElementById('title');
+// populating the title element with text
+title.innerHTML = `The <span class="word" title="id: animal-1">${firstAnimal}</span> And The  <span class="word" title="id: animal-2">${secondAnimal}</span>`;
